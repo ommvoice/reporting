@@ -10,7 +10,7 @@ const TestComponent = () => {
         <Button size="small" variant="contained">
           View Sales
         </Button>
-        <Typography variant="h2">Text1</Typography>
+        <Typography variant="h2">Demo Text</Typography>
       </CardContent>
     </Card>
   );
