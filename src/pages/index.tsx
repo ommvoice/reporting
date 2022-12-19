@@ -1,11 +1,14 @@
-import styles from '@/styles/Home.module.css';
+import TestComponent from '@/components/TestComponent';
+import Grid from '@mui/material/Grid';
 
-export default function Home() {
+const Dashboard = () => {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>Reporting Tool 1</h1>
-      </main>
-    </div>
+    <Grid container spacing={6}>
+      <Grid item xs={12} md={4}>
+        <TestComponent />
+      </Grid>
+    </Grid>
   );
-}
+};
+
+export default Dashboard;
